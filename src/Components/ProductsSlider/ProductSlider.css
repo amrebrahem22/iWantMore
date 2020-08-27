@@ -1,0 +1,26 @@
+.discover {
+  width: 90%;
+  margin: 30px auto 0 auto;
+}
+
+.discover h2 {
+  margin-left: -25px;
+  padding: 13px 0;
+}
+.discover h2 span {color: #e09b43;}
+
+.discover img {
+  width: auto !important;
+  margin-bottom: 20px;
+}
+
+.discover .slick-prev, .slick-next {
+  z-index: 101;
+}
+
+.discover .slick-prev {left: -40px;}
+.discover .slick-next {right: -40px;}
+.discover .slick-prev:before, .slick-next:before {
+  font-size: 25px;
+  color: #131921;
+}

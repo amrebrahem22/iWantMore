@@ -1,0 +1,30 @@
+.banner {
+  margin-bottom: -320px;
+  z-index: -1;
+}
+
+.banner__slide {
+  width: 100%;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.banner .slick-prev, .slick-next {
+  z-index: 101;
+}
+
+.banner .slick-prev {left: 15px;}
+.banner .slick-next {right: 15px;}
+.banner .slick-prev:before, .slick-next:before {
+  font-size: 25px;
+  color: #131921;
+}
+
+@media (max-width: 991.98px) {
+  .banner {
+      margin-bottom: -30px;
+  }
+  
+  .banner .slick-next {
+    display: block !important;
+  }
+}
